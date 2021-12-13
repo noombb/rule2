@@ -11,9 +11,9 @@
 
 ## 声明
 
-本项目在多个 Quantumult X 配置文件上进行了修改、整理、收集和拓展
+本项目在多个 [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) 配置文件上进行了修改、整理、收集和拓展
 
-本项目Github地址: [https://github.com/smxl/500](https://github.com/smxl/500)
+本项目 Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
 本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
 
@@ -36,9 +36,15 @@
 
 6. Quantumult X - 风车 - misc. - 添加 GeoIP
 
-7. GeoIP2-CN 二选一即可
+7. GeoIP2-CN 二选一
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
+
+8. 如果你没有自己的订阅链接, 可以直接使用
+
+9. 如果你需要使用自己的订阅链接, 可以把配置文件中 [server_remote] 下方 https://500.pages.dev/xv-sub 替换为你的订阅链接
+
+注: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用
 
 ## 分流规则和重写
 
@@ -121,6 +127,8 @@ FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本
 下载: [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
 
 iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set, 则可以使用 [500-min-clash-nset.yaml](https://github.com/smxl/500/raw/main/500-min-clash-nset.yaml)
+
+另外一款 Clash 客户端, [Stash](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349) 已经上架应用商店, 目前售价 $1.99, 支持 [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
 
 如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
 
