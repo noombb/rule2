@@ -1,7 +1,12 @@
-/x-github https://github.com/smxl/500
-
-/mmdb https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/Country.mmdb
+/x https://github.com/smxl/500/raw/main/500-min-cert.conf
+/c https://github.com/smxl/500/raw/main/500-min-clash.yaml
+/gh https://github.com/smxl/500
 /ip https://ip.skk.moe/
+/mmdb /xb-mmdb-hh
+
+/sc-news https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
+/sc-pade https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6
+/sc-vip https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6
 
 /xb-mmdb-hh https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
 /xb-mmdb-sc https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb
@@ -44,7 +49,3 @@
 /xr-search https://github.com/smxl/500/raw/main/xd/search.conf
 /xr-v https://github.com/smxl/500/raw/main/xd/v.conf
 /xr-video https://github.com/smxl/500/raw/main/xd/video.conf
-
-/sc-news https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da
-/sc-pade https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6
-/sc-vip https://www.icloud.com/shortcuts/62ff7617ceae415ca1a644a691a24df6

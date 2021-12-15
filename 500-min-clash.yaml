@@ -1,4 +1,4 @@
-# 500 / Simple Config for Clash ver.11.14.2021
+# 500 / Simple Config GeoIP for Clash ver 12.15.2021
 # https://500.pages.dev
 # https://github.com/smxl/500
 port: 12330
@@ -35,7 +35,7 @@ proxy-providers:
   #   interval: 3600
   #   health-check:
   #       enable: false
-  #       url: http://www.gstatic.com/generate_204
+  #       url: http://www.apple.com/generate_204
   #       interval: 300
   Free:
     type: http
@@ -44,7 +44,7 @@ proxy-providers:
     interval: 3600
     health-check:
         enable: false
-        url: http://www.gstatic.com/generate_204
+        url: http://www.apple.com/generate_204
         interval: 300
 
 proxy-groups:

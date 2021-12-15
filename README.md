@@ -1,4 +1,4 @@
-500 / Simple Config GeoIP for Quantumult X (QuantumultX) 预配置文件: Apple News 解锁规则 + 捷径, 去广告分流规则, TikTok 解锁 Rewrite, 神机分流规则, VIP 视频解析重写 + 捷径
+500 / Simple Config GeoIP for Quantumult X (QuantumultX) / Clash 预配置文件: Apple News 解锁规则 + 捷径, 去广告分流规则, TikTok 解锁 Rewrite, 神机分流规则, VIP 视频解析重写 + 捷径
 
 ## 简介
 > + 整合多个 Quantumult X 配置文件, 利用 GeoIP 特性, 剔除部分规则, 精简规则和配置文件
@@ -7,6 +7,7 @@
 - [捷径](https://github.com/smxl/500#捷径)
 - [小工具](https://github.com/smxl/500#小工具)
 - [Clash 配置](https://github.com/smxl/500#clash-配置)
+- [配置文件更新](https://github.com/smxl/500#配置文件更新)
 - [推荐](https://github.com/smxl/500#推荐)
 
 ## 声明
@@ -26,6 +27,7 @@
 23_03.cer|[23_03.cer](https://github.com/smxl/500/blob/main/static/23_03.cer?raw=true)|证书, Thor 生成无需 passphrase, 500-min-cert.conf 需安装
 500-min-cert.conf|[500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase
 500-min.conf|[500-min.conf](https://github.com/smxl/500/raw/main/500-min.conf)|无证书的配置文件
+
 2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定
 
 3. 可选: Mitm - 生成证书 - 配置证书 - 安装证书
@@ -36,7 +38,7 @@
 
 6. Quantumult X - 风车 - misc. - 添加 GeoIP
 
-7. GeoIP2-CN 二选一
+7. GeoIP2-CN 二选一 (复制链接或下载后导入)
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
 
@@ -44,7 +46,7 @@
 
 9. 如果你需要使用自己的订阅链接, 可以把配置文件中 [server_remote] 下方 https://500.pages.dev/xv-sub 替换为你的订阅链接
 
-注: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用
+注: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用, 另外本配置使用了公开的 MITM 证书, 如果你也有 Thor, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)
 
 ## 分流规则和重写
 
@@ -140,6 +142,20 @@ proxy-providers:
   #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
 ...
 ```
+
+## 配置文件更新
+
+500-min-cert.conf
+
+[https://github.com/smxl/500/raw/main/500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)
+
+[https://500.pages.dev/500x](https://500.pages.dev/x)
+
+500-min-clash.yaml
+
+[https://github.com/smxl/500/raw/main/500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
+
+[https://500.pages.dev/500c](https://500.pages.dev/c)
 
 ## 推荐
 
