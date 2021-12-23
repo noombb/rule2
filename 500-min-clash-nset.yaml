@@ -1,4 +1,4 @@
-# 500 / Simple Config GeoIP for Clash ver 12.15.2021
+# 500 / Simple Config GeoIP for Clash ver 12.22.2021
 # https://500.pages.dev
 # https://github.com/smxl/500
 port: 12330
@@ -28,7 +28,7 @@ dns:
 proxies:
 
 proxy-providers:
-  # My: # 你也可以将 url 换成你的 clash 节点订阅链接
+  # My: # 你也可以将 url 换成你的 clash 节点订阅链接或者只替换中文部分
   #   type: http
   #   path: ./my.yaml
   #   url: https://api.10101.io/sub?target=clash&url=你的订阅链接&list=true
