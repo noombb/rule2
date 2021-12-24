@@ -1,4 +1,4 @@
-# 500 / Simple Config GeoIP for Clash ver 12.22.2021
+# 500 / Simple Config GeoIP for Clash ver 12.24.2021
 # https://500.pages.dev
 # https://github.com/smxl/500
 port: 12330
@@ -77,11 +77,11 @@ proxy-groups:
   #   url: 'http://cp.cloudflare.com/generate_204'
 
 rule-providers:
-  mi:
+  fix:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/mi.yaml"
-    path: ./mi.yaml
+    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/fix.yaml"
+    path: ./fix.yaml
     interval: 36000
     
   lan:
@@ -91,11 +91,19 @@ rule-providers:
     path: ./lan.yaml
     interval: 3600
 
+  mi:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/mi.yaml"
+    path: ./mi.yaml
+    interval: 36000
+
 rules:
   - PROCESS-NAME,Thunder,DIRECT
   - PROCESS-NAME,uTorrent,DIRECT
   - PROCESS-NAME,Thunder.exe,DIRECT
   - PROCESS-NAME,uTorrent.exe,DIRECT
+  - RULE-SET,fix,Proxy
   - RULE-SET,lan,DIRECT
   - RULE-SET,mi,REJECT
   - GEOIP,CN,DIRECT

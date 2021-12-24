@@ -1,4 +1,4 @@
-# 500 / Simple Config GeoIP for Clash ver 12.22.2021
+# 500 / Simple Config GeoIP for Clash ver 12.24.2021
 # https://500.pages.dev
 # https://github.com/smxl/500
 port: 12330
@@ -77,8 +77,10 @@ proxy-groups:
   #   url: http://www.apple.com/generate_204
 
 rules:
+  - DOMAIN,app.adjust.com,Proxy
   - DOMAIN,injections.adguard.org,DIRECT
   - DOMAIN,local.adguard.org,DIRECT
+  - DOMAIN,recaptcha.net,Proxy
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
