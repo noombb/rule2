@@ -1,5 +1,6 @@
 // 用法详见: https://github.com/smxl/500
 let body=`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
@@ -33,7 +34,7 @@ let body=`<!DOCTYPE html>
                     </div>
                 </form>
             </div>
-            <div class="footer text-center"><p>不存储任何视频内容, 所有视频相关内容来自互联网</p></div>
+            <div class="footer text-center"><p>不存储任何视频内容, 所有视频相关内容来自互联网</p><p><a href="https://500.pages.dev/" target="_blank">回主页</a></p></div>
         </div>
         <iframe src="" id="play" width="100%" height="50%" frameborder="0" allowfullscreen scrolling="no" style="position:absolute"></iframe>
         <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -53,6 +54,21 @@ let body=`<!DOCTYPE html>
                     o = document.getElementById("play");
                 0 < n.length && (o.src = t + n);
             }
+            function getQueryVariable(variable)
+            {
+                   var query = window.location.search.substring(1);
+                   var vars = query.split("&");
+                   for (var i=0;i<vars.length;i++) {
+                           var pair = vars[i].split("=");
+                           if(pair[0] == variable){return pair[1];}
+                   }
+                   return(false);
+            }
+            function vvv()
+            {
+                document.getElementById("vipurl").value = getQueryVariable("vv");
+            }
+            vvv();
         </script>
     </body>
 </html>

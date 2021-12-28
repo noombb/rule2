@@ -114,6 +114,8 @@ VIP Video 解析|高可用解析, 在当前窗口播放视频|https://500.pages.
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 VIP Video 解析|高可用解析, 在当前窗口播放视频|https://v.im
 
+FAQ: https://v.im/v?vv=视频地址 https://500.pages.dev/v?vv=视频地址 现已支持参数传入, 替换中文部分为网址即可使用
+
 [TikTok 21.0.0](https://transfer.sh/eFAkw1/TikTok%2021.0.0%20plist%20removed.ipa?cYGngGphgS7n) 11.09.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 用 7zip 打开后替换安装
 
 [YouTube 16.39.6](https://transfer.sh/iNfMMf/YouTube%2016.39.6%20plist%20removed.ipa?Y6QN9t6hWK8M) 12.01.2021 实测可用, ipa 已经去除 iTunesMetadata.plist 文件, 请用自己账户下载的 ipa 用 7zip 打开后替换安装, 此版本去广告后不会造成跳回视频片头
