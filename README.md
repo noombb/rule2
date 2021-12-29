@@ -151,13 +151,13 @@ proxy-providers:
 
 [https://github.com/smxl/500/raw/main/500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)
 
-[https://500.pages.dev/500x](https://500.pages.dev/x)
+[https://500.pages.dev/x](https://500.pages.dev/x)
 
 500-min-clash.yaml
 
 [https://github.com/smxl/500/raw/main/500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
 
-[https://500.pages.dev/500c](https://500.pages.dev/c)
+[https://500.pages.dev/c](https://500.pages.dev/c)
 
 ## 推荐
 
