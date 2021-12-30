@@ -1,6 +1,5 @@
 // 用法详见: https://github.com/smxl/500
 let body=`<!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
@@ -64,11 +63,15 @@ let body=`<!DOCTYPE html>
                    }
                    return(false);
             }
-            function vvv()
+            function vipvideovalue()
             {
-                document.getElementById("vipurl").value = getQueryVariable("vv");
+                if (getQueryVariable("vv").length>1) {
+                    document.getElementById("vipurl").value = getQueryVariable("vv");
+                } else {
+                    
+                }
             }
-            vvv();
+            vipvideovalue();
         </script>
     </body>
 </html>

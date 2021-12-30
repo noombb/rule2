@@ -90,6 +90,7 @@ FAQ: 你可以根据自己的情况调整上述规则和重写是否需要启用
 
 演示效果:
 - https://500.pages.dev/archive/apple-news-hevc.mp4
+- https://500.pages.dev/archive/vip-video-hevc.mp4
 
 捷径|作用|链接
 -|-|-
