@@ -1,7 +1,7 @@
 payload:
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN,app.adjust.com
-  - DOMAIN,bing.com
-  - DOMAIN,linkedin.com
-  - DOMAIN,recaptcha.net
-  - DOMAIN,steampowered.com
   - DOMAIN,testflight.apple.com
