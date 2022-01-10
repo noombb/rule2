@@ -18,7 +18,7 @@
 
 本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
 
-增加备用的网页托管地址: [https://500-sepia.vercel.app](https://500-sepia.vercel.app), 无重定向, 部分功能可用
+增加备用的网页托管地址: [https://cnn.vercel.app](https://cnn.vercel.app), 无重定向, 部分功能可用
 
 ##  使用方法
 
@@ -112,7 +112,7 @@ FAQ: 你需要完成手机的基本设置才可以使用 Apple News QX, 比如�
 无需重写||
 ipa 安装|通过 shu 安装名为 app.ipa 的旧版本应用|https://500.pages.dev/static/
 VIP Free 解析|高可用解析, 在新窗口打开视频|https://500.pages.dev/static/vf
-V 视频|高可用解析, 在当前窗口播放视频|https://500.pages.dev/v?vv=视频地址 https://500-sepia.vercel.app/v.html?vv=视频地址 现已支持参数传入, 替换中文部分为网址即可使用
+V 视频|高可用解析, 在当前窗口播放视频|https://500.pages.dev/v?vv=视频地址 https://cnn.vercel.app/v.html?vv=视频地址 现已支持参数传入, 替换中文部分为网址即可使用
 需要重写||
 快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词
 V 视频|高可用解析, 在当前窗口播放视频|https://v.im/v?vv=视频地址 现已支持参数传入, 替换中文部分为网址即可使用
