@@ -11,7 +11,7 @@ let body=`
     <body>
         <div class="container">
             <div class="header h1 text-center">
-                <h1><small>Vip 视频 粘贴视频地址解析后播放</small></h1>
+                <h1><small>Vip 视频 粘贴 解析 播放</small></h1>
             </div>
             <div class="main">
                 <form class="form-horizontal" method="post">
@@ -19,8 +19,8 @@ let body=`
                         <label for="api" class="col-sm-2 control-label">选取</label>
                         <div class="col-sm-10">
                             <select id="jk" size="1" onchange="fnChange()" class="form-control">
-                                <optgroup label="推荐 - 无广"><option value="https://okjx.cc/?url=">okjx</option></optgroup>
-                                <optgroup label="支持搜索 - 有广"><option value="https://z1.m1907.cn/?jx=">m1907</option></optgroup>
+                                <optgroup label="推荐"><option value="https://okjx.cc/?url=">OK 解析</option></optgroup>
+                                <optgroup label="支持搜索"><option value="https://z1.m1907.cn/?jx=">M1907</option><option value="https://vip.bljiex.com/?v=">BL 解析</option></optgroup>
                             </select>
                         </div>
                     </div>
