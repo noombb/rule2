@@ -1,5 +1,6 @@
-# 500 / Simple Config GeoIP for Clash ver 12.24.2021
+# 500 / Simple Config GeoIP for Clash ver 1.11.2022
 # https://500.pages.dev
+# https://cnn.vercel.app
 # https://github.com/smxl/500
 port: 12330
 socks-port: 12331
@@ -60,7 +61,7 @@ proxy-groups:
     proxies:
     use:
       - Free
-    url: 'http://cp.cloudflare.com/generate_204'
+    url: http://www.apple.com/generate_204
     interval: 300
 
   - name: Manual
@@ -74,7 +75,7 @@ proxy-groups:
   #   proxies:
   #   use:
   #     - My
-  #   url: 'http://cp.cloudflare.com/generate_204'
+  #   url: http://www.apple.com/generate_204
 
 rule-providers:
   fix:
