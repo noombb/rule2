@@ -22,13 +22,12 @@
 
 ##  使用方法
 
-1. 选择一个配置文件, 下载或者复制
+1. 下载或者复制配置文件
 
 文件|地址|说明
 -|-|-
 23_03.cer|[23_03.cer](https://github.com/smxl/500/blob/main/static/23_03.cer?raw=true)|证书, Thor 生成无需 passphrase, 500-min-cert.conf 需安装
 500-min-cert.conf|[500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase
-500-min.conf|[500-min.conf](https://github.com/smxl/500/raw/main/500-min.conf)|无证书的配置文件
 
 2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定
 
@@ -127,15 +126,17 @@ FAQ: 你需要使用非香港地区的代理才可以使用 TikTok, 这也是本
 
 ## Clash 配置
 
-抽空搞了一个 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
+本项目同时提供了 Clash 配置文件, 使用了 proxy-providers, rule-providers 所以配置文件干净又简单
 
 下载: [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml) 需要使用 [Premium Core](https://github.com/Dreamacro/clash/releases/tag/premium)
 
-iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set, 则可以使用 [500-min-clash-nset.yaml](https://github.com/smxl/500/raw/main/500-min-clash-nset.yaml)
+iOS 也有了 Clash 客户端: [Choc](https://testflight.apple.com/join/J5QPqXKO), 但是目前不支持 rule-set*
 
-另外一款 Clash 客户端, [Stash](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349) 已经上架应用商店, 目前售价 $1.99, 支持 [500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
+另外一款 Clash 客户端, [Stash](https://apps.apple.com/us/app/stash-proxy-utility/id1596063349) 已经上架应用商店, 目前售价 $1.99, 可以使用本配置文件
 
-如果需要使用自己的订阅, 你可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释即可
+如果需要使用自己的订阅, 你需要替换字段 https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&list=true
+
+你也可以修改注释中的 ```你的订阅链接```, 然后取消掉配置中全部注释
 
 ```
 proxy-providers:

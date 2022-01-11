@@ -5,6 +5,18 @@
       { "source": "/mmdb", "destination": "/xb-mmdb-hh" },
       { "source": "/xb-mmdb-hh", "destination": "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb" },
       { "source": "/x", "destination": "https://github.com/smxl/500/raw/main/500-min-cert.conf" },
-      { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/500-min-clash.yaml" }
+      { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/500-min-clash.yaml" },
+      {
+        "source": "/",
+        "has": [
+          {
+            "type": "header",
+            "key": "x-vercel-ip-country",
+            "value": "CN"
+          }
+        ],
+        "destination": "/x.html",
+        "permanent": false
+      }
     ]
   }
