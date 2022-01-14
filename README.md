@@ -158,6 +158,14 @@ proxy-providers:
 
 [https://cnn.vercel.app/x](https://cnn.vercel.app/x)
 
+500-cnn-cert.conf
+
+[https://github.com/smxl/500/raw/main/500-cnn-cert.conf](https://github.com/smxl/500/raw/main/500-cnn-cert.conf)
+
+[https://500.pages.dev/q](https://500.pages.dev/q)
+
+[https://cnn.vercel.app/q](https://cnn.vercel.app/q)
+
 500-min-clash.yaml
 
 [https://github.com/smxl/500/raw/main/500-min-clash.yaml](https://github.com/smxl/500/raw/main/500-min-clash.yaml)
