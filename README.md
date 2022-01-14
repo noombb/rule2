@@ -27,9 +27,8 @@
 文件|地址|说明
 -|-|-
 23_03.cer|[23_03.cer](https://github.com/smxl/500/blob/main/static/23_03.cer?raw=true)|证书, Thor 生成无需 passphrase, 500-min-cert.conf 需安装
-500-cnn-cert.conf|[500-cnn-cert.conf](https://github.com/smxl/500/raw/main/500-cnn-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase, 链接为 vercel 重定向
-500-min-cert.conf|[500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)|同上, 链接为 pages 重定向
-500-org-cert.conf|[500-org-cert.conf](https://github.com/smxl/500/raw/main/500-org-cert.conf)|同上, 链接为 GitHub 长链接
+500-cnn-cert.conf|[500-cnn-cert.conf](https://github.com/smxl/500/raw/main/500-cnn-cert.conf)|需安装证书的配置文件, 已填写 p12 且无需 passphrase, 链接为 vercel.app 重定向
+500-min-cert.conf|[500-min-cert.conf](https://github.com/smxl/500/raw/main/500-min-cert.conf)|同上, 链接为 pages.dev 重定向
 
 2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定
 
