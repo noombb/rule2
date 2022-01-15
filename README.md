@@ -22,6 +22,8 @@
 
 ##  使用方法
 
+如你不使用本配置的证书, 可下载配置文件后删除 p12= 后面的字符, 修改的文件导入 Quantumult X 从 3 开始操作
+
 1. 下载或复制配置文件
 
 文件|地址|说明
@@ -38,15 +40,15 @@
 
 5. Quantumult X - 风车 - 节点 - 引用 (订阅) - 右上角添加 - 填写标签和资源路径 (自己的机场订阅链接)
 
-6. Quantumult X - 风车 - misc. - 添加 GeoIP
+6. Quantumult X - 风车 - 其他设置 - GeoLite2 来源 添加 GeoIP
 
 7. GeoIP2-CN 二选一 (复制链接或下载导入)
 > - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)
 > - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)
 
-8. 如果你没有自己的订阅链接, 可以直接使用
+8. 如你没有自己的订阅链接, 可直接使用, 若需要使用自己的订阅, 可把配置文件中 [server_remote] 下方 https://(500|cnn).pages.dev/xv-sub 改为你的订阅链接
 
-9. 如果你需要使用自己的订阅链接, 可以把配置文件中 [server_remote] 下方 https://500.pages.dev/xv-sub 替换为你的订阅链接
+9. 启动, 由于 Quantumult X 不支持 url schema / url-schema 启动, 建议打开 其他设置 - VPN - 始终开启, 剩余开关按需选择
 
 注: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用, 另外本配置使用了公开的 MITM 证书, 如果你也有 Thor, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)
 
@@ -72,7 +74,7 @@ box|重写|https://500.pages.dev/xr-box|BoxJS
 emby|重写|https://500.pages.dev/xr-emby|Emby 解锁, 无通知
 fake|重写|https://500.pages.dev/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro
 jike|重写|https://500.pages.dev/xr-jike|即刻去直播
-js|重写|https://500.pages.dev/xr-js|脚本去广告和比价
+js|重写|https://500.pages.dev/xr-js|~~脚本去广告和比价~~
 jsc|重写|https://500.pages.dev/xr-jsc|脚本获取 Cookies
 lk|重写|https://500.pages.dev/xr-lk|国外服务 Fake VIP
 tiktok|重写|https://500.pages.dev/xr-tiktok|TikTok US
