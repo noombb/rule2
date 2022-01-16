@@ -44,18 +44,10 @@
       { "source": "/xr-v", "destination": "https://github.com/smxl/500/raw/main/xd/v.conf" },
       { "source": "/xr-video", "destination": "https://github.com/smxl/500/raw/main/xd/video.conf" },
       { "source": "/xr-youtube", "destination": "https://github.com/Orz-3/QuantumultX/raw/master/YouTube.conf" },
-      { "source": "/xv-sub", "destination": "https://api.10101.io/sub?target=quanx&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&emoji=true&list=true&fdn=true&sort=true" },
-      {
-        "source": "/xxx",
-        "has": [
-          {
-            "type": "header",
-            "key": "x-vercel-ip-country",
-            "value": "CN"
-          }
-        ],
-        "destination": "/xxx.html",
-        "permanent": false
-      }
-    ]
+      { "source": "/xv-sub", "destination": "https://api.10101.io/sub?target=quanx&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&emoji=true&list=true&fdn=true&sort=true" }
+    ],
+    "github": {
+      "silent": true,
+      "autoJobCancelation": true
+    }  
   }
