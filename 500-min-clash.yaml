@@ -17,11 +17,11 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
   default-nameserver:
-    - 119.29.29.29
+    - 52.80.52.52
     - 101.101.101.101
   nameserver:
+    - https://dns.twnic.tw/dns-query
     - tls://101.101.101.101:853
-    - https://doh.pub/dns-query
   fallback:
     - https://doh.dns.sb/dns-query
     - tls://1.0.0.1:853
