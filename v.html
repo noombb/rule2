@@ -45,7 +45,7 @@
                 document.getElementById("vipurl").value = "";
             }
             function onShare() {
-                navigator.clipboard.writeText(document.domain + "/v.html?vv=" + document.getElementById("vipurl").value)
+                navigator.clipboard.writeText("https://" + document.domain + "/v.html?vv=" + document.getElementById("vipurl").value)
             }
             function onPlay() {
                 var e = document.getElementById("jk"),
