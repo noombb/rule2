@@ -1,4 +1,4 @@
-# 500 / Simple Config GeoIP for Clash ver 1.11.2022
+# 500 / Simple Config GeoIP for Clash ver 1.19.2022
 # https://500.pages.dev
 # https://cnn.vercel.app
 # https://github.com/smxl/500
@@ -83,7 +83,7 @@ rule-providers:
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/fix.yaml"
     path: ./fix.yaml
-    interval: 36000
+    interval: 3600
     
   lan:
     type: http
@@ -97,7 +97,7 @@ rule-providers:
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/smxl/500@main/cd/mi.yaml"
     path: ./mi.yaml
-    interval: 36000
+    interval: 3600
 
 rules:
   - PROCESS-NAME,Thunder,DIRECT
