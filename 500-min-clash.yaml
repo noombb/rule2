@@ -1,4 +1,4 @@
-# 500 / Simple Config GeoIP for Clash ver 1.19.2022
+# 500 / Simple Config GeoIP for Clash ver 1.22.2022
 # https://500.pages.dev
 # https://cnn.vercel.app
 # https://github.com/smxl/500
@@ -17,8 +17,8 @@ dns:
   listen: 0.0.0.0:53
   ipv6: true
   default-nameserver:
-    - 52.80.52.52
     - 101.101.101.101
+    - 52.80.52.52
   nameserver:
     - https://dns.twnic.tw/dns-query
     - tls://101.101.101.101:853
@@ -101,8 +101,8 @@ rule-providers:
 
 rules:
   - PROCESS-NAME,Thunder,DIRECT
-  - PROCESS-NAME,uTorrent,DIRECT
   - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - RULE-SET,fix,Proxy
   - RULE-SET,lan,DIRECT
