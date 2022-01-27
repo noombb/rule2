@@ -16,9 +16,9 @@
 
 本项目 Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)
 
-本项目使用配置文件托管在 Cloudflare Pages 的快速链接: [https://500.pages.dev](https://500.pages.dev)
+本项目使用 Cloudflare Pages 的托管地址: [https://500.pages.dev](https://500.pages.dev)
 
-增加备用的网页托管地址: [https://cnn.vercel.app](https://cnn.vercel.app)
+由 Vercel 提供的托管地址: [https://cnn.vercel.app](https://cnn.vercel.app)
 
 ##  使用方法
 
