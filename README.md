@@ -20,7 +20,7 @@
 
 由 Vercel 提供的托管地址: [https://cnn.vercel.app](https://cnn.vercel.app)
 
-新增加 [https://🖕.vercel.app/](https://xn--cz8h.vercel.app) 以此感谢某网络对 Cloudflare Pages 的支持
+新增加 [https://🖕.vercel.app](https://xn--cz8h.vercel.app) 以此感谢局域网中对 Cloudflare Pages 的支持
 
 ##  使用方法
 
