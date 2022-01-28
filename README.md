@@ -20,6 +20,8 @@
 
 由 Vercel 提供的托管地址: [https://cnn.vercel.app](https://cnn.vercel.app)
 
+新增加 [https://🖕.vercel.app/](https://xn--cz8h.vercel.app) 以此感谢某网络对 Cloudflare Pages 的支持
+
 ##  使用方法
 
 如你不使用本配置的证书, 可下载配置文件后删除 p12= 后面的字符, 修改的文件导入 Quantumult X 从 3 开始操作

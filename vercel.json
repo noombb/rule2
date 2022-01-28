@@ -4,6 +4,7 @@
       { "source": "/cx-fix", "destination": "https://cdn.jsdelivr.net/gh/smxl/500@main/xd/fix.list" },
       { "source": "/gh", "destination": "https://github.com/smxl/500" },
       { "source": "/mmdb", "destination": "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb" },
+      { "source": "/plist", "destination": "https://github.com/smxl/500/raw/main/static/ab.plist" },
       { "source": "/q", "destination": "https://github.com/smxl/500/raw/main/500-cnn-cert.conf" },
       { "source": "/sc-news", "destination": "https://www.icloud.com/shortcuts/09bd8758634943dfba6f41ce55b704da" },
       { "source": "/sc-pade", "destination": "https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6" },
