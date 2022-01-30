@@ -6,7 +6,7 @@ let body=`
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>V 视频</title>
-<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 <div class="container">
@@ -30,7 +30,7 @@ let body=`
     <div class="col-sm-offset-2 col-sm-10"><button type="button" onclick="onPlay()" class="btn btn-primary">解析</button> <button type="button" onclick="onClear()" class="btn btn-primary">清空</button> <button type="button" onclick="onShare()" class="btn btn-primary">复制</button></div>
 </div></form>
 </div>
-<div class="footer text-center"><p>不存储任何视频内容, 相关内容来自互联网 <a href="./" target="_blank">回主页</a></p></div>
+<div class="footer text-center"><p>相关内容来自互联网 <a href="./" target="_blank">主页</a></p></div>
 </div>
 <iframe src="" id="play" width="100%" height="50%" frameborder="0" allowfullscreen scrolling="no" style="position:absolute"></iframe>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
