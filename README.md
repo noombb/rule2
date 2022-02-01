@@ -204,3 +204,5 @@ proxy-providers:
 [VirgilClyne](https://github.com/VirgilClyne/iRingo)
 
 如有遗漏敬请告知
+
+感谢 Cloudflare Pages 和 Vercel 提供的服务
