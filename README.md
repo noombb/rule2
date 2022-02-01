@@ -179,7 +179,9 @@ proxy-providers:
 
 ## 推荐
 
-本项目引用了这些项目, 感谢你们
+本配置文件引用了这些项目或服务, 你可以在这里找到他们
+
+为方便访问原项目, 配置文件中的引用方式均使用了 https://github.com/用户/项目/raw/分支/目录/文件 的形式
 
 [10101.io](https://10101.io)
 [app2smile](https://github.com/app2smile/rules)
