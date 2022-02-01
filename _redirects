@@ -25,7 +25,7 @@
 /xr-apple https://github.com/smxl/500/raw/main/xd/apple.conf
 /xr-aqi https://github.com/chouchoui/QuanX/raw/master/iOS_Weather_AQI_Standard.conf
 /xr-bili https://github.com/blackmatrix7/ios_rule_script/raw/master/script/bilibili/bilibili_plus.qxrewrite
-/xr-box https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf
+/xr-box https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
 /xr-emby https://github.com/smxl/500/raw/main/xd/emby.conf
 /xr-embyplus https://github.com/smxl/500/raw/main/xd/embyplus.conf
 /xr-fake https://github.com/smxl/500/raw/main/xd/fake.conf
@@ -33,7 +33,7 @@
 /xr-jike https://github.com/chouchoui/QuanX/raw/master/Scripts/jike/jike.qx.conf
 /xr-jikeplus https://github.com/smxl/500/raw/main/xd/jike.conf
 /xr-js https://github.com/Orz-3/QuantumultX/raw/master/JS.conf
-/xr-jsc https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf
+/xr-jsc https://github.com/Orz-3/QuantumultX/raw/master/JS_GetCookie.conf
 /xr-lk https://github.com/langkhach270389/Quantumult-X-LK/raw/master/Rewrite/Fake_Vip_Remote.txt
 /xr-res https://github.com/smxl/500/raw/main/xd/res.conf
 /xr-search https://github.com/smxl/500/raw/main/xd/search.conf

@@ -179,16 +179,26 @@ proxy-providers:
 
 ## 推荐
 
-+ [Orz-3](https://github.com/Orz-3/QuantumultX)
+本项目引用了这些项目, 感谢你们
 
-  > 由神机规则修改而来, 修改了默认策略组, 增加了正则筛选策略组, 并集成了 Nobyda 的去广告脚本和重写, 附带按 task 脚本作者分类的 [task 订阅](https://github.com/Orz-3/QuantumultX/tree/master/Task#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95), 可按需求订阅
+[10101.io](https://10101.io)
+[app2smile](https://github.com/app2smile/rules)
+[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+[chouchoui](https://github.com/chouchoui/QuanX)
+[crossutility](https://github.com/crossutility/Quantumult-X)
+[DivineEngine](https://github.com/DivineEngine/Profiles)
+[freefq](https://github.com/freefq/free)
+[Hackl0us](https://github.com/Hackl0us/GeoIP2-CN)
+[HotKids](https://github.com/HotKids/Rules)
+[JQWS](https://github.com/JQWS/GuangZhuiQuanX)
+[KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX)
+[langkhach270389](https://github.com/langkhach270389/Quantumult-X-LK)
+[NobyDa](https://github.com/NobyDa/Script)
+[Orz-3](https://github.com/Orz-3/QuantumultX)
+[Semporia](https://github.com/Semporia/TikTok-Unlock)
+[sobweb](https://gitee.com/sobweb/usefulScripts)
+[srk24](https://github.com/srk24/profile)
+[Sunert](https://github.com/Sunert/Script)
+[VirgilClyne](https://github.com/VirgilClyne/iRingo)
 
-+ [KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX)
-
-  > 各个模块的说明非常详细, 特别推荐 Quantumult X 资源解析器
-
-+ [VirgilClyne](https://github.com/VirgilClyne/iRingo)
-  > 解锁完整的 Apple 功能和集成服务
-
-+ [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
-  > 各平台的分流规则、复写规则及自动化脚本
+如有遗漏敬请告知
