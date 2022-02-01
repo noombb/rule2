@@ -1,6 +1,5 @@
 // 用法详见: https://github.com/smxl/500
-let body=`
-<!DOCTYPE html>
+let body=`<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8" />
@@ -17,7 +16,7 @@ let body=`
     <label for="api" class="col-sm-2 control-label">选取</label>
     <div class="col-sm-10">
         <select id="jk" size="1" onchange="fnChange()" class="form-control">
-            <optgroup label="推荐"><option value="https://okjx.cc/?url=">OK 解析</option></optgroup>
+            <optgroup label="仅网址"><option value="https://okjx.cc/?url=">OK 解析</option></optgroup>
             <optgroup label="支持搜索"><option value="https://z1.m1907.cn/?jx=">M1907 解析</option><option value="https://vip.bljiex.com/?v=">BL 解析</option></optgroup>
         </select>
     </div>
@@ -74,9 +73,7 @@ function vipvideovalue()
 vipvideovalue();
 </script>
 </body>
-</html>
-
-`
+</html>`
 
 const Status = "HTTP/1.1 200 OK";
 const Headers = {};

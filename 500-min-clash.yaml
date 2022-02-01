@@ -1,6 +1,7 @@
-# 500 / Simple Config GeoIP for Clash ver 1.22.2022
+# 500 / Simple Config GeoIP for Clash ver 2.1.2022
 # https://500.pages.dev
 # https://cnn.vercel.app
+# https://xn--cz8h.vercel.app
 # https://github.com/smxl/500
 port: 12330
 socks-port: 12331
@@ -23,7 +24,7 @@ dns:
     - https://dns.twnic.tw/dns-query
     - tls://101.101.101.101:853
   fallback:
-    - https://doh.dns.sb/dns-query
+    - https://185.222.222.222/dns-query
     - tls://1.0.0.1:853
 
 proxies:
