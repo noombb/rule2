@@ -1,7 +1,6 @@
 {
     "redirects": [
       { "source": "/c", "destination": "https://github.com/smxl/500/raw/main/500-min-clash.yaml" },
-      { "source": "/cx-fix", "destination": "https://cdn.jsdelivr.net/gh/smxl/500@main/xd/fix.list" },
       { "source": "/gh", "destination": "https://github.com/smxl/500" },
       { "source": "/mmdb", "destination": "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb" },
       { "source": "/plist", "destination": "https://github.com/smxl/500/raw/main/static/ab.plist" },
@@ -10,7 +9,6 @@
       { "source": "/sc-pade", "destination": "https://www.icloud.com/shortcuts/40fa82979a7943b1a78239a1a04943d6" },
       { "source": "/sc-vip", "destination": "https://www.icloud.com/shortcuts/aeace30db5d34f2c9b95db55a1562a71" },
       { "source": "/v", "destination": "/v.html" },
-      { "source": "/x", "destination": "https://github.com/smxl/500/raw/main/500-min-cert.conf" },
       { "source": "/xc-sub", "destination": "https://api.10101.io/sub?target=clash&url=https://gitee.com/sobweb/usefulScripts/raw/master/vmesslite|https://github.com/freefq/free/blob/master/v2?raw=true&list=true" },
       { "source": "/xf-ads", "destination": "https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/Guard/Advertising.list" },
       { "source": "/xf-cn", "destination": "https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Filter/China.list" },
