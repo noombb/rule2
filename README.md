@@ -78,7 +78,6 @@ tiktok|重写|https://cnn.vercel.app/xr-tiktok|TikTok US
 upgrade|重写|https://cnn.vercel.app/xr-upgrade|屏蔽APP更新检查
 youtube|重写|https://cnn.vercel.app/xr-youtube|YouTube 去广告
 embyplus|重写|https://cnn.vercel.app/xr-embyplus|Emby 下载
-install|重写|https://cnn.vercel.app/xr-install|Shu 安装 app.ipa 重写
 jikeplus|重写|https://cnn.vercel.app/xr-jikeplus|即刻去直播, 去日记
 res|重写|https://cnn.vercel.app/xr-res|大陆软件优化
 search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写

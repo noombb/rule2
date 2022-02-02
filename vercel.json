@@ -30,7 +30,6 @@
       { "source": "/xr-emby", "destination": "https://github.com/smxl/500/raw/main/xd/emby.conf" },
       { "source": "/xr-embyplus", "destination": "https://github.com/smxl/500/raw/main/xd/embyplus.conf" },
       { "source": "/xr-fake", "destination": "https://github.com/smxl/500/raw/main/xd/fake.conf" },
-      { "source": "/xr-install", "destination": "https://github.com/smxl/500/raw/main/xd/i.conf" },
       { "source": "/xr-jike", "destination": "https://github.com/chouchoui/QuanX/raw/master/Scripts/jike/jike.qx.conf" },
       { "source": "/xr-jikeplus", "destination": "https://github.com/smxl/500/raw/main/xd/jike.conf" },
       { "source": "/xr-js", "destination": "https://github.com/Orz-3/QuantumultX/raw/master/JS.conf" },
